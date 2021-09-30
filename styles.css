@@ -1,0 +1,449 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #efeff7;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    margin: 3%;
+    padding-left: 1%;
+    padding-right: 1%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+::selection{
+    background: #333;
+    color: #9CCB47;
+}
+
+/*SECTIONS*/
+
+
+/*DIV: top-title */
+.top-title{
+    border-bottom: 2px solid #333;
+    height: 70px;
+    width: 100%;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none; 
+    user-select: none; 
+}
+.c-titl{
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    color: #9CCB47;
+    font-size: 50px;
+    text-align: center;
+    float: left;
+    left: 40%;
+
+}
+
+.n-title{
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    color: #9CCB47;
+    font-size: 20px;
+    text-align: center;
+    float: left;
+    padding-top: 25px;
+    margin-left: 1%;
+    border-bottom: 2px solid #9CCB47;
+}
+
+/**/
+.noticias-destacadas-lef{
+    width: auto;
+}
+
+.spol-more-here{
+
+   display: inline-block;
+    height: auto;
+    text-align: left;
+}
+
+
+/* DIIV: d-Deportes-artic */
+.d-Deportes-artic{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+.d-principal-one{
+    color: #333;   
+    height: auto;
+    width: auto;
+}
+
+
+
+.new-news{
+    color: #9CCB47;
+}
+
+.text-new{
+    max-width: 100%;
+}
+
+.btn-more-salud-inci{
+    text-align: center;
+    padding: 1%;
+    border: none;
+    background: #9CCB47;
+    color: #333;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-weight: 900;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none; 
+    user-select: none; 
+}
+
+.btn-more-salud-inci:hover{
+    border: 1px solid #333;
+    background: #efeff7;
+}
+.btn-more-salud-inci a{
+    color: #333;
+    text-decoration: none;
+}
+
+/*DIV: col-r-stars*/
+
+.col-r-stars{
+    border: 2px solid #333;
+    border-radius: 5px;
+    color: #efeff7;
+    background: #333;
+    height: auto;
+    width: auto;
+    padding: 1%;
+}
+
+
+/*DIVS NEWS -1- 2- -3*/
+.new-1-desc{
+    padding: 1%;
+    border: 2px solid #9CCB47;
+    width: auto;
+
+    text-align: center;
+    height: auto;
+}
+
+.titile-new-desc{
+    font-family: 'Poppins';
+}
+
+
+/* DIV: panel-bottom-ot*/
+.panel-bottom-ot{
+    margin-top: 5vh;
+    width:auto;
+    background: #333;
+    height: auto;
+    border-radius: 5px;
+    padding: 1%;
+    color: #efeff7;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none; 
+    user-select: none; 
+    text-align: center;
+}
+
+.icon-c-fotter{
+    font-size: 160%;
+    margin-left: 2%;
+    margin-right: 2%;
+    transition-property: color;
+    transition-duration: 2s;
+    cursor: pointer;
+    color: #efeff7;
+}
+
+
+.icon-c-fotter:hover{
+    color: #9CCB47;
+}
+
+/*-----MENU-----*/
+.menu{
+    font-family: 'Oswald', sans-serif; ;
+    list-style: none;
+    width: max-content;
+    width: 100%;
+    color: #333;
+    float: left;
+        -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none; 
+    user-select: none; 
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #333;
+    padding: 1%;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+    padding: 1.5%;
+}
+
+.menu li a:hover{
+    border-bottom: 2px solid #333;
+    border-top: 2px solid #333;
+    color: #9CCB47;
+}
+/*------------*/ 
+
+
+
+
+
+/*----DEPORTES HTML----*/
+
+/*DIV: div-text-prin*/
+
+.div-text-prin{
+    background: #333; 
+    width: auto;
+    padding: 2%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+/*DIV: deportes-ntc*/
+.deportes-ntc{
+    width: auto;
+    background: #333;
+    height: auto;
+    padding: 2%;
+    color: #efeff7;
+}
+
+.t-depo-1{
+    font-family: 'Poppins', sans-serif; 
+    color: #9CCB47;
+    font-size: 200%;
+
+}
+
+
+/*DIV: div-2-depo */
+
+.div-2-depo{
+    padding: 2%;
+    width: auto;
+    margin-top: 3%;
+    border: #333 2px solid ;
+    border-radius: 5px;
+    color: #333;
+    height: auto;
+    text-align: right;
+}
+
+
+.t-2-prx{
+    text-align: right;
+    color: #9CCB47;
+}
+
+/*DIV: foto-1-depor */
+
+.foto-1-depor{
+    width: auto;
+    background: #333;
+    border: 0px;
+    padding: 2%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    /*something here but for now ... NOTHING*/
+}
+
+/*FOTOS*/
+
+.foto-1deportes{
+    border-radius: 5px;
+    width: 32.8%;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+
+/*INDEX SALUD*/
+
+
+/*DIV: topic-1-salud */
+
+.topic-1-salud{
+    color: #efeff7;
+    width: auto;
+    background: #333;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 1%;
+}
+
+/*primer-new-salud*/
+.primer-new-salud{
+    border: #333 2px solid;
+    padding: 1%;
+}
+
+.new-primer-imp{
+    color: #9CCB47;
+}
+
+/*DIV: prot-div-2-sa*/
+
+.prot-div-2-sa{
+    border: #333 2px solid;
+    padding: 1%;
+    border-top: none;
+}
+
+.prot-tit{
+    color: #9CCB47;
+}
+
+/*DIV: div-fotos-salud */
+
+.div-fotos-salud{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border:2px solid #333;
+    background: #333;
+    padding: 1%;
+
+}
+
+.foto-salud{
+    display: inline-block;
+    width: 32%;
+}
+
+
+/* INDEX INTERNACIONAL */
+
+.internacional-h-top-tit{
+    border: #333;
+    width: auto;
+    border: 2px solid #333;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+.snd-div-inter{
+    margin-top: 3%;
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 1%;
+    background-image: url(images/engalnd-foto.jpg);
+    background: rgba(51, 51, 51, 0);
+}
+
+.grey-transparent{
+    color: rgba(51, 51, 51, 0.514);
+    font-size: 80%;
+}
+
+
+/*INDEX ESPECTÁCULOS*/
+
+.tit-top-espect{
+    color: #9CCB47;
+    width: auto;
+    border: 2px solid #333;
+    padding: 1%;
+    border-radius: 5px;
+    background: #333;
+
+}
+
+.one-text-espec{
+    color: #333;
+    width: auto;
+    border: 2px solid #333;
+    padding: 1%;
+    border-radius: 5px;
+    margin-top: 2%;
+}
+
+.text-first-green{
+    color: #9CCB47;
+    font-size: 110%;
+}
+
+.igm-asable{
+    width: 23%;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #333;
+}
+
+.div-fotos-espec{
+    color: #333;
+    width: auto;
+    border: 2px solid #333;
+    padding: 1%;
+    border-radius: 5px;
+    margin-top: 2%;
+}
+
+
+/*INDEX CULTURAL*/
+
+.title-cultural{
+    background: #333;
+    border-radius: 5px;
+    padding: 1%;
+    color: #efeff7;
+}
+
+.text-title{
+    color: #9CCB47;
+}
+
+.onu-img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.foto-museo-1{
+    width: 49%;
+    display: inline-block;
+    background: #333;
+    border-radius: 5px;
+    box-shadow: 2px 2px 0px #9CCB47 ;
+}
+
+/*
+    -----------------------------------
+    01101101 00110001 01101011 01100101
+    -----------------------------------
+                                 _.-_
+                             __.'  o "-.
+                    ___----""       ,,,'
+               __--"             _-_ ^^;
+       ____--""  ___         _-\"   `""
+..--===-------"""   "(   __-"  ,}
+                    .'_/"\
+                  .'/"  `\`._
+                  "-_c    "  
+    -----------------------------------
+*/
